@@ -1,0 +1,4 @@
+specVersion: '2.6'
+metadata:
+  name: walk-ui5
+type: application
