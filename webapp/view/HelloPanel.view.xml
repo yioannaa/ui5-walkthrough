@@ -7,15 +7,20 @@
       class="sapUiResponsiveMargin"
       width="auto" >
       <content>
-         <Button
+        <Button
+            id="helloDialogButton"
+            text="{i18n>openDialogButtonText}"
+            press="onOpenDialog"
+            class="sapUismallMarginEnd"/>
+        <Button
             text="{i18n>showHelloButtonText}"
             press=".onShowHello"
             class="myCustomButton"/>
-         <Input
+        <Input
             value="{/recipient/name}"
             valueLiveUpdate="true"
             width="60%"/>
-         <FormattedText
+        <FormattedText
             htmlText="Hello {/recipient/name}"
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
       </content>
