@@ -1,5 +1,4 @@
-{
-    "Invoices": [
+ [
       {
         "ProductName": "Pineapple",
         "Quantity": 21,
@@ -41,4 +40,4 @@
         "Status": "A"
       }
     ]
-  }
+  
